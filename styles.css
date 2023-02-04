@@ -8,7 +8,7 @@
 body {
     font-family: Merriweather, sans-serif;
     margin: 0;
-    overflow: scroll;
+    overflow:visible;
     display: flex;
     flex-direction: column;
 }
@@ -97,7 +97,7 @@ img {
 button {
     align-items: center;
     appearance: button;
-    background-color: #0276FF;
+    background-color: #3882F6;
     border-radius: 8px;
     border-style: none;
     box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
@@ -118,6 +118,7 @@ button {
     -webkit-user-select: none;
     touch-action: manipulation;
 }
+
 
 button:active {
     background-color: #006AE8;
@@ -175,3 +176,37 @@ button:hover {
     font-weight: 900;
 }
 
+.section-3 {
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em 20em;
+}
+
+.call-to-action {
+    background-color:#6fa1f3;
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em;
+    border-radius: 10px;
+}
+
+.cta-main-text {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.cta-text {
+    color: #dfdfdf;
+}
+.section-4 {
+    background-color: #1f2937;
+    color: #fafafa;
+    padding: 1.5em;
+    text-align: center;
+}
