@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* colors */
+
+
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Merriweather, sans-serif;
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 a {
@@ -19,6 +22,10 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.hero {
+    background-color: #6788b6;
 }
 
 .links {
@@ -34,10 +41,118 @@ ul {
 .header {
     background-color: #1f2937;
     color: azure;
-    padding: 1em;
+    padding: 1em 20em 1em 20em;
     margin: 0px;
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
+    flex: 1;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.links {
+    display: flex;
+    margin: auto;
+
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 7em 20em 9em 20em;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.hero-left-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #fafafa;
+}
+
+.hero-left-text {
+    color: #dfdfdf;
+    line-height: 1.5;
+}
+
+.hero-right {
+    justify-content: flex-end;
+}
+
+img {
+    display: flex;
+    flex: 1;
+}
+
+button {
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:active {
+    background-color: #006AE8;
+}
+
+button:hover {
+    background-color: #1C84FF;
+}
+
+.button {
+    padding-top: 1em;
+}
+
+.section-1-main-text {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
+
+.section-1 {
+    padding: 0em 20em 7em 20em;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    gap: 52px;
+}
+
+.img-txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 250px;
+}
+
